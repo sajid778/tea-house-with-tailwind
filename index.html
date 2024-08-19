@@ -24,6 +24,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        manrope: ['Manrope', 'sans-serif'],
                     }
                 }
             }
@@ -31,7 +34,7 @@
     </script>
 </head>
 
-<body>
+<body class="font-manrope">
 
     <!-- main content -->
 
@@ -72,7 +75,7 @@
 
 
         <!-- feature section -->
-        <section class="text-center mb-8">
+        <section class="text-center mb-12">
             <h1 class="text-3xl md:text-4xl font-bold mb-5">Our Featured Products</h1>
 
             <p class="text-gray-600 mx-auto max-w-lg">There are many variations of passages of Lorem Ipsum available,
@@ -154,7 +157,7 @@
 
                 <!-- text section -->
                 <div>
-                    <h1 class="text-5xl font-bold mb-6">Great Tea, Freshly Presented</h1>
+                    <h1 class="text-5xl font-bold mb-6 mt-8">Great Tea, Freshly Presented</h1>
                     <p class="text-gray-500">The meaning of gong cha is chanese is to provide the best tea to emperor
                         from all possessions . It represents the highest quality and self expectation. Establishing in
                         2006, Gong cha had been deeply appreciated by its custoers because of good words of mouth and
@@ -198,7 +201,7 @@
                     <!-- maiidle card -->
                     <div class="absolute z-10 top-44 md:top-52">
                         <div
-                            class="relative h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
+                            class="relative h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 top-10">
                             <div class="absolute -top-5 -left-5 bg-white rounded-full ">
                                 <img class="p-1" src="images/client.png" alt="">
                             </div>
@@ -252,6 +255,61 @@
 
         </section>
 
+        <!-- News and event section -->
+        <section>
+
+            <!-- news text container -->
+            <div class="text-center">
+                <h1 class="text-5xl font-bold mb-8">News & Events</h1>
+                <p class="text-gray-500 mb-10">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form, by injected humour, or randomised words which don't
+                    look even slightly believable. </p>
+            </div>
+
+            <!-- news cared container -->
+            <div class="grid md:grid-cols2 lg:grid-cols-3 gap-4">
+
+                <!-- card -->
+                <div class="p-5 rounded-xl border-2 mb-5">
+                    <img src="images/news-1.png" alt="">
+
+
+                    <p class="mb-4 mt-5 text-lg text-gray-500">FEb 05, 2027</p>
+
+                    <h2 class="mb-4 font-extrabold text-xl">Collecting 8 points for discount</h2>
+                    <p class="mb-4 mt-4 text-gray-500">There are many variations of passages of Lorem Ipsum available.
+                    </p>
+
+                    <p class="font-extrabold text-xl">Learn More</p>
+                </div>
+                <div class="p-5 rounded-xl border-2 mb-5">
+                    <img src="images/news-2.png" alt="">
+
+
+                    <p class="mb-4 mt-5 text-lg text-gray-500">FEb 05, 2027</p>
+
+                    <h2 class="mb-4 font-extrabold text-xl">Collecting 8 points for discount</h2>
+                    <p class="mb-4 mt-4 text-gray-500">There are many variations of passages of Lorem Ipsum available.
+                    </p>
+
+                    <p class="font-extrabold text-xl">Learn More</p>
+                </div>
+                <div class="p-5 rounded-xl border-2 mb-5">
+                    <img src="images/news-3.png" alt="">
+
+
+                    <p class="mb-4 mt-5 text-lg text-gray-500">FEb 05, 2027</p>
+
+                    <h2 class="mb-4 font-extrabold text-xl">Collecting 8 points for discount</h2>
+                    <p class="mb-4 mt-4 text-gray-500">There are many variations of passages of Lorem Ipsum available.
+                    </p>
+
+                    <p class="font-extrabold text-xl">Learn More</p>
+                </div>
+
+            </div>
+        </section>
+
 
     </main>
 
@@ -271,70 +329,72 @@
                         Started</button>
                 </div>
 
-           
 
-        </div>
 
-        <!-- links -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            </div>
 
-    
-        <!-- 1st column -->
+            <!-- links -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:text-start text-center">
 
-        <div>
-            <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
-            <ul class="space-y-2">
-                <li><a class="hover:text-orange-600" href="#">Home</a></li>
-                <li><a class="hover:text-orange-600" href="#">About Us</a></li>
-                <li><a class="hover:text-orange-600" href="#">Insurance</a></li>
-                <li><a class="hover:text-orange-600" href="#">Privacy Policy</a></li>
-            </ul>
-        </div>
-        <!-- second column -->
-        <div>
-            <h3 class="font-semibold text-lg mb-3">Our Service</h3>
-            <ul class="space-y-2">
-                <li><a class="hover:text-orange-600" href="#">Life Insurance</a></li>
-                <li><a class="hover:text-orange-600" href="#">Car Insurance</a></li>
-                <li><a class="hover:text-orange-600" href="#">Health Insurance</a></li>
-                <li><a class="hover:text-orange-600" href="#">House Insurance</a></li>
-            </ul>
-        </div>
-        <!-- third column -->
-        <div>
-            <h3 class="font-semibold text-lg mb-3">Help</h3>
-            <ul class="space-y-2">
-                <li><a class="hover:text-orange-600" href="#">FAQs</a></li>
-                <li><a class="hover:text-orange-600" href="#">Contact Us</a></li>
-               
-            </ul>
-        </div>
 
-        <!-- forth column -->
-        <div>
-            <h3 class="text-lg font-semibold mb-3">
-                Subscribe to our <br> newsletter
-            </h3>
+                <!-- 1st column -->
 
-            <div class="flex flex-col space-y-2">
                 <div>
-                    <input type="text" placeholder="Email Address" class="bg-transparent border-b-2 border-black w-4/6">
+                    <h3 class="font-bold text-lg mb-3">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a class="hover:text-orange-600" href="#">Home</a></li>
+                        <li><a class="hover:text-orange-600" href="#">About Us</a></li>
+                        <li><a class="hover:text-orange-600" href="#">Insurance</a></li>
+                        <li><a class="hover:text-orange-600" href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!-- second column -->
+                <div>
+                    <h3 class="font-bold text-lg mb-3">Our Service</h3>
+                    <ul class="space-y-2">
+                        <li><a class="hover:text-orange-600" href="#">Life Insurance</a></li>
+                        <li><a class="hover:text-orange-600" href="#">Car Insurance</a></li>
+                        <li><a class="hover:text-orange-600" href="#">Health Insurance</a></li>
+                        <li><a class="hover:text-orange-600" href="#">House Insurance</a></li>
+                    </ul>
+                </div>
+                <!-- third column -->
+                <div>
+                    <h3 class="font-bold text-lg mb-3">Help</h3>
+                    <ul class="space-y-2">
+                        <li><a class="hover:text-orange-600" href="#">FAQs</a></li>
+                        <li><a class="hover:text-orange-600" href="#">Contact Us</a></li>
 
-                    <i class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 rounded-full inline-flex justify-center items-center text-white"></i>
-                    <div class="flex justify-between w-2/5 mb-2 mt-8 text-2xl">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-square-instagram"></i>
+                    </ul>
+                </div>
+
+                <!-- forth column -->
+                <div>
+                    <h3 class="text-lg font-bold mb-3">
+                        Subscribe to our <br> newsletter
+                    </h3>
+
+                    <div class="flex flex-col space-y-2">
+                        <div>
+                            <input type="text" placeholder="Email Address"
+                                class="bg-transparent border-b-2 border-black w-4/6">
+
+                            <i
+                                class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 rounded-full inline-flex justify-center items-center text-white"></i>
+                            <div class="flex justify-between mx-auto w-2/5 mb-2 mt-8 text-2xl">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="text-center mt-10 pt-4">
-        <p class="text-sm text-gray-500">© 2027 UIDesign.to - All rights reserved.</p>
-    </div>
+            <div class="text-center mt-10 pt-4">
+                <p class="text-sm text-gray-500">© 2027 UIDesign.to - All rights reserved.</p>
+            </div>
 
-    </div>
+        </div>
 
     </footer>
 
